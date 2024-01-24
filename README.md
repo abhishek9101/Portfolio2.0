@@ -1,4 +1,4 @@
-![facial](https://github.com/abhishek9101/Portfolio2.0/assets/77790762/1b6160d0-90a8-445f-8cbb-c6c5f83417bf)# Portfolio2.0
+
 Welcome to the GitHub repository for my portfolio project, [Portfolio 2.0]! This portfolio showcases my skills, projects, and achievements as a [Web Developer].
 
 ---
@@ -36,3 +36,4 @@ Feel free to explore the code, contribute, or use this as inspiration for your o
 Customize the template by replacing `[Portfolio 2.0].
 
 
+![Screenshot (4)](https://github.com/abhishek9101/Portfolio2.0/assets/77790762/d89571a6-4c3a-43c7-9d1b-bebd1b5925d0)

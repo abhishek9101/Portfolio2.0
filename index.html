@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio 2.0</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e2b7bc3c6f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="image4.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contacts">Contact</a></li>
+                <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Full Stack Developer</p>
+            <h1>Hi, I'm<span> Abhishek </span><br>Kumar From Lucknow</h1>
+        </div>
+    </div>
+</div>
+
+
+<!------------------------About section-------------------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="image2.jpeg" class="imageee">
+            </div>
+            <div class="about-col-2">
+                <h1 class="subtitle">About me</h1>
+                <p>I am seeking an opportunity in an organization that will help me deliver my best, and upgrade my skill and meet the demands of the organization.</p>
+                <div class="tab-title">
+                <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('Achievements')">Achievements</p>
+                <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>Languages :</span><br>Javascript, Java, Python,</li>
+                        <li><span>Web Development :</span><br>HTML, CSS, Javascript</li>
+                        <li><span>Framework :</span><br>React Framework</li>
+                        <li><span>IT Constructs :</span><br>OS, OPPS, DBMS, DS and Algorithms<br></li>
+                        <li><span>Development Tools :</span><br>VS Code, Pycharm</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Achievements">
+                    <ul>
+                        <li><span> On HackerRank Successfully Achieved Certificate for the skill:- </span><br> Problem solving (intermediate)</span><br> Problem solving (Basic) </span><br>Javascript (intermediate)</span><br> Javascript (Basic)</span><br> Python (Basic)</span><br> Java (Basic)</li>
+                        <li><span>On freeCodeCamp successfully archived certificate for the skills:</span><br>JavaScript Algorithms and Data Structure</span><br>Responsive Web Design.</li>
+                        <li><span>On You Tube i have 280+ Subscribers and 7000+ views :</span><br>Based on Education video related to coding.</li>
+                        <li><span>Massive user reach: MixVistaTv Srupasses 500+ Active Users!</span><br>Noteworthy Achievement: My TV app, MixVistaTV, boasts an impressive user base to 500+ enthusiasts, Showcasing its popularity and widespread adoption in the digital landscape.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>M.tech in CSE :</span><br>8.5/10 CGPA (2021-2023)</li>
+                        <li><span>B.Tech in CSE :</span><br>6.71/10 CGPA (2017-2021)<br></li>
+                        <li><span>Class XII(IGHSOP) :</span><br>69.8% (2016)</li>
+                        <li><span>Class X (BSEB) :</span><br>60.4% (2014)</li>  
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------------------------Services-------------------------->
+
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="services-list">
+            <div>
+                <img src="https://img.icons8.com/external-flaticons-flat-flat-icons/64/000000/external-backend-no-code-flaticons-flat-flat-icons-2.png"/>
+                <h2>Frontend Development</h2>
+                <p>Using HTML, CSS and Javascript to create Frontend and Using React Framework to create interactive website. <br>Click Down to see some sample.</p>
+                <a href="https://abhishek9101.github.io/portfolio66/">Click Here</a>
+            </div>
+            <div>
+                <img src="https://img.icons8.com/nolan/64/backend-development.png"/>
+                <h2>Full Stack Development</h2>
+                <p>Proficient in full-stack development, seamlessly combining front-end and back-end technologies to create comprehensive and dynamic web applications</p>
+                <a href="https://mixvistatv.netlify.app/">Click Here</a>
+            </div>
+            <div>
+                <img src="https://img.icons8.com/cute-clipart/64/000000/developer-mode.png"/>
+                <h2>App Development</h2>
+                <p>Developed a Pizza Ordering app in Android Studio using predefined templates for efficient implementation</p>
+                <a href="https://drive.google.com/file/d/1pCWdBZ4xxxaXZuk506Cn2o_kwp5iorig/view?usp=sharing">Click Here</a>
+            </div> 
+        </div>
+    </div>
+</div>
+
+
+<!----------------------------Portfolio-------------------------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="mixvistatvlogo.jpg">
+                <div class="layer">
+                    <h3></h3>
+                    <p>🚀 Enjoy seamless streaming, stunning visuals, and a user-friendly interface all in one app.
+                        visit on the website.</p>
+                        <a href="https://mixvistatv.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="https://www.nicepng.com/png/detail/154-1545276_portfolio-icon-circle.png">
+                <div class="layer">
+                    <h3>Portfolio</h3>
+                    <p>This website gives information about the the person Achievements, skills.
+                        visit on the website.</p>
+                        <a href="https://abhishek9101.github.io/portfolio66/"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Project-ThumbnailsQ-24.jpg">
+                <div class="layer">
+                    <h3>Parking Space Counter</h3>
+                    <p>The Goal of this project to construst a classifer system and good accuracy provide to the user.
+                        click on link to see the video.</p>
+                        <a href="https://youtube.com/shorts/9QPrsbcB_Ik?feature=share"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="istockphoto-1339139937-612x612.jpg" class="btn">See More</a>
+    </div>
+</div>
+
+
+<!-------------------------Contacts--------------------->
+
+<div id="contacts">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i> abhishekraj9101@gmail.com</p>
+                <p> <i class="fa-solid fa-mobile"></i>7979893747</p>
+                <div class="social-icons">
+                    <a href="https://github.com/abhishek9101"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/abhishek-kumar-a29b34204/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/2017abhishekraj/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100013453687791"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/Abhishe06048733?t=9Ygz7Wh3q_5k0XFsZI6HvQ&s=08"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <a href="https://drive.google.com/file/d/1q3p_D_Sl_Sj5DK4XBqXPPIpHLS_qem5z/view?usp=sharing" class="btn btn2">Download CV</a>
+
+            </div>
+            <div class="contact-left">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Type Your Message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+        
+        
+        
+
+        
+    </div>
+    <div class="copyright">
+        <p>Copyright @Abhishek. Made with <i class="fa-solid fa-heart"></i> by Personal level</p>
+    </div>
+</div>
+
+
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+
+<script>
+    var sidemenu=document.getElementById('sidemenu');
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwZ0Azja138KQrktdmbACrR_sYZBez8YrtKFz6t2ELp2PYFDT8IYCsdXWKW4zXmZuzz/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="Message Sent Successfully"
+        setTimeout(function(){
+            msg.innerHTML=""
+        },9000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+    
+</body>
+</html>

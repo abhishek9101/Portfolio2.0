@@ -1,4 +1,4 @@
-
+![Screenshot (1)](https://github.com/abhishek9101/Portfolio2.0/assets/77790762/6195c41e-f4ae-4291-9507-da40363816f8)
 Welcome to the GitHub repository for my portfolio project, [Portfolio 2.0]! This portfolio showcases my skills, projects, and achievements as a [Web Developer].
 
 ---
@@ -35,5 +35,17 @@ Feel free to explore the code, contribute, or use this as inspiration for your o
 
 Customize the template by replacing `[Portfolio 2.0].
 
-
+![Screenshot (1)](https://github.com/abhishek9101/Portfolio2.0/assets/77790762/44866b4a-98e8-458c-a2d8-ab8ba276d000)
+![Screenshot (2)](https://github.com/abhishek9101/Portfolio2.0/assets/77790762/fed6f6c8-6239-4905-8432-2ea253c6faff)
+![Screenshot (3)](https://github.com/abhishek9101/Portfolio2.0/assets/77790762/2ead55d7-36d7-421b-81ee-bfd6d9bfbd30)
 ![Screenshot (4)](https://github.com/abhishek9101/Portfolio2.0/assets/77790762/d89571a6-4c3a-43c7-9d1b-bebd1b5925d0)
+![Screenshot (5)](https://github.com/abhishek9101/Portfolio2.0/assets/77790762/b50b4e02-c9d9-4828-9d8f-f32bdc90878f)
+
+
+
+
+
+
+
+
+
